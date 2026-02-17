@@ -54,19 +54,19 @@ const Header = () => {
                 </div>
                 <div className="">
                   <ul className="flex gap-8">
-                    <li className="font-oswald font-semibold text-base text-[#063231] hover:text-[#F75709] duration-300">
+                    <li className="font-oswald font-bold text-base text-[#063231] hover:text-[#F75709] duration-300">
                       <Link href={"/"}>Home</Link>
                     </li>
-                    <li className="font-oswald font-semibold text-base text-[#063231] hover:text-[#F75709] duration-300">
+                    <li className="font-oswald font-bold text-base text-[#063231] hover:text-[#F75709] duration-300">
                       <Link href={"/"}>Pages</Link>
                     </li>
-                    <li className="font-oswald font-semibold text-base text-[#063231] hover:text-[#F75709] duration-300">
+                    <li className="font-oswald font-bold text-base text-[#063231] hover:text-[#F75709] duration-300">
                       <Link href={"/"}>Portfolio</Link>
                     </li>
                     <li className="font-oswald font-semibold text-base text-[#063231] hover:text-[#F75709] duration-300">
                       <Link href={"/"}>Blog</Link>
                     </li>
-                    <li className="font-oswald font-semibold text-base text-[#063231] hover:text-[#F75709] duration-300">
+                    <li className="font-oswald font-bold text-base text-[#063231] hover:text-[#F75709] duration-300">
                       <Link href={"/"}>Contact</Link>
                     </li>
                   </ul>
@@ -75,7 +75,7 @@ const Header = () => {
               <div>
                 <Button
                   className={
-                    "font-jakarta font-extrabold text-[18px] text-[#063231] uppercase cursor-pointer"
+                    "font-jakarta font-extrabold text-[18px] text-[#063231] uppercase cursor-pointer bg-[#C3DF94]"
                   }
                   btntext={"lets get in touch"}
                 />
