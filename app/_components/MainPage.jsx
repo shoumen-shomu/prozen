@@ -4,6 +4,7 @@ import Service from './Service'
 import About from './About'
 import Counter from './Counter'
 import Project from './Project'
+import Team from './Team'
 
 
 const MainPage = () => {
@@ -14,7 +15,7 @@ const MainPage = () => {
       <Service/>
       <About/>
       <Counter/>
-      <Project/>
+      <Team/>
     </div>
     </>
   )
