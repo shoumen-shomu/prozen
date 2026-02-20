@@ -6,6 +6,7 @@ import Counter from './Counter'
 import Project from './Project'
 import Team from './Team'
 import Testimonial from './Testimonial'
+import Working from './Working'
 
 
 const MainPage = () => {
@@ -17,6 +18,7 @@ const MainPage = () => {
       <About/>
       <Counter/>
       <Project/>
+      <Working/>
       <Team/>
       <Testimonial/>
     </div>
