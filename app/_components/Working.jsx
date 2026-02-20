@@ -7,15 +7,15 @@ const Working = () => {
       <section id="workingPart">
         <div className="bg-[url('/workingbg.png')] bg-cover bg-center bg-no-repeat my-32.5 py-32.5">
           <Container>
-            <div className="text-center justify-center">
+            <div className="text-center justify-center relative">
               <p className="font-oswald font-bold text-base text-[#F75709] uppercase pb-2.5">
                 Working process
               </p>
               <h2 className="font-oswald font-bold text-[60px] text-white leading-16.5 w-140 mx-auto uppercase">
                 We make things easy for you to start
               </h2>
-              <div className="mt-10.5 flex gap-41.25">
-                <div className="bg-[#294F4E] w-full"></div>
+              <div className="bg-[#294F4E] w-full h-0.5 absolute top-[53%] left-0 z-0"></div>
+              <div className="mt-10.5 flex gap-41.25 z-10 ">        
                 <div className="pt-6.25 px-3">
                   <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
                     step 01
