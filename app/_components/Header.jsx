@@ -42,7 +42,7 @@ const Header = () => {
         {/* Top Header End */}
 
         {/* Menu Part Start */}
-        <div className=" mt-5 fixed top-0 left-0 w-full z-10">
+        <div className=" mt-5 fixed top-0 left-0 w-full z-99">
           <Container>
             <div className="py-4.25 px-3.75 flex items-center gap-15 justify-between rounded-[20px] bg-white ">
               <div className="flex items-center justify-between gap-15">
