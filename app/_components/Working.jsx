@@ -15,8 +15,9 @@ const Working = () => {
                 We make things easy for you to start
               </h2>
               <div className="bg-[#294F4E] w-full h-0.5 absolute top-[53%] left-0 z-0"></div>
-              <div className="mt-10.5 flex gap-41.25 z-10 ">        
-                <div className="pt-6.25 px-3">
+              <div className="mt-10.5 flex gap-41.25">        
+                <div className="pt-6.25 px-3 z-10 relative ">
+                    <div className="bg-[#294F4E] h-17.5 w-0.5 absolute top-[28%] left-[50%] z-9"></div>
                   <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
                     step 01
                   </div>
@@ -28,7 +29,8 @@ const Working = () => {
                     challenges.
                   </p>
                 </div>
-                <div className="pt-6.25 px-3">
+                <div className="pt-6.25 px-3 z-10 relative ">
+                    <div className="bg-[#294F4E] h-17.5 w-0.5 absolute top-[28%] left-[50%] z-9"></div>
                   <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
                     step 02
                   </div>
@@ -40,7 +42,8 @@ const Working = () => {
                     challenges.
                   </p>
                 </div>
-                <div className="pt-6.25 px-3">
+                <div className="pt-6.25 px-3 z-10 relative ">
+                    <div className="bg-[#294F4E] h-17.5 w-0.5 absolute top-[28%] left-[50%] z-9"></div>
                   <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
                     step 03
                   </div>
