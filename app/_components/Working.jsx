@@ -8,12 +8,50 @@ const Working = () => {
         <div className="bg-[url('/workingbg.png')] bg-cover bg-center bg-no-repeat my-32.5 py-32.5">
           <Container>
             <div className="text-center justify-center">
-              <p className="font-oswald font-bold text-base text-[#F75709] uppercase pb-[10px]">
+              <p className="font-oswald font-bold text-base text-[#F75709] uppercase pb-2.5">
                 Working process
               </p>
               <h2 className="font-oswald font-bold text-[60px] text-white leading-16.5 w-140 mx-auto uppercase">
                 We make things easy for you to start
               </h2>
+              <div className="mt-10.5 flex gap-41.25">
+                <div className="pt-6.25 px-3">
+                  <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
+                    step 01
+                  </div>
+                  <h3 className="font-oswald font-semibold text-[28px] text-white leading-8.5 tracking-[-0.56px] uppercase">
+                    Onboarding
+                  </h3>
+                  <p className="font-jakarta font-normal text-[18px] text-white leading-7.5 pt-0.75 w-76.5">
+                    Initial consultations to identify the client's goals and
+                    challenges.
+                  </p>
+                </div>
+                <div className="pt-6.25 px-3">
+                  <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
+                    step 02
+                  </div>
+                  <h3 className="font-oswald font-semibold text-[28px] text-white leading-8.5 tracking-[-0.56px] uppercase">
+                    Planning
+                  </h3>
+                  <p className="font-jakarta font-normal text-[18px] text-white leading-7.5 pt-0.75 w-76.5">
+                    Initial consultations to identify the client's goals and
+                    challenges.
+                  </p>
+                </div>
+                <div className="pt-6.25 px-3">
+                  <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
+                    step 03
+                  </div>
+                  <h3 className="font-oswald font-semibold text-[28px] text-white leading-8.5 tracking-[-0.56px] uppercase">
+                    Implementation
+                  </h3>
+                  <p className="font-jakarta font-normal text-[18px] text-white leading-7.5 pt-0.75 w-76.5">
+                    Initial consultations to identify the client's goals and
+                    challenges.
+                  </p>
+                </div>
+              </div>
             </div>
           </Container>
         </div>
