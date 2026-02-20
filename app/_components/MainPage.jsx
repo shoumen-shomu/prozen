@@ -16,6 +16,7 @@ const MainPage = () => {
       <Service/>
       <About/>
       <Counter/>
+      <Project/>
       <Team/>
       <Testimonial/>
     </div>
