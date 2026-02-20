@@ -15,6 +15,7 @@ const Working = () => {
                 We make things easy for you to start
               </h2>
               <div className="mt-10.5 flex gap-41.25">
+                <div className="bg-[#294F4E] w-full"></div>
                 <div className="pt-6.25 px-3">
                   <div className="uppercase py-3 px-5.5 bg-[#C3DF94] rounded-xl font-oswald font-semibold text-[18px] text-[#063231] leading-7.5 mb-26.25 inline-block">
                     step 01
