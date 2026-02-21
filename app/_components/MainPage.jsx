@@ -1,12 +1,12 @@
 import React from 'react'
-import Banner from './Banner'
-import Service from './Service'
-import About from './About'
-import Counter from './Counter'
-import Project from './Project'
-import Team from './Team'
-import Testimonial from './Testimonial'
-import Working from './Working'
+import Banner from './home/Banner'
+import Service from './home/Service'
+import About from './home/About'
+import Counter from './home/Counter'
+import Project from './home/Project'
+import Team from './home/Team'
+import Testimonial from './home/Testimonial'
+import Working from './home/Working'
 
 
 const MainPage = () => {

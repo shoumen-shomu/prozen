@@ -1,8 +1,9 @@
 import React from "react";
-import Container from "./Container";
-import Flex from "./Flex";
+import Container from "../common/Container";
+import Flex from "../common/Flex";
 import Image from "next/image";
-import Button from "./Button";
+import Button from "../common/Button";
+
 
 const About = () => {
   return (
@@ -27,7 +28,12 @@ const About = () => {
                     Your success is our shared triumph, and we're unwavering in
                     our commitment to delivering exceptional,
                   </p>
-                  <Button className={"uppercase bg-[#063231] font-jakarta font-extrabold text-[18px] text-white cursor-pointer inline-block mt-7.5"} btntext={"Let’s Get in Touch"}/>
+                  <Button
+                    className={
+                      "uppercase bg-[#063231] font-jakarta font-extrabold text-[18px] text-white cursor-pointer inline-block mt-7.5"
+                    }
+                    btntext={"Let’s Get in Touch"}
+                  />
                 </div>
               </Flex>
             </div>

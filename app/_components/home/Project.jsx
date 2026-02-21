@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "./Container";
+import Container from "../common/Container";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";

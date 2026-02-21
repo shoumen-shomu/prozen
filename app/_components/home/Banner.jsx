@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import Container from "./Container";
-import Flex from "./Flex";
-import Button from "./Button";
+import Container from "../common/Container";
+import Flex from "../common/Flex";
+import Button from "../common/Button";
 import Image from "next/image";
 import { motion } from "framer-motion";
 

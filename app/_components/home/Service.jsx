@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "./Container";
+import Container from "../common/Container";
 import Image from "next/image";
 
 const Service = () => {
   return (
     <div>
       <section id="service">
-        <div className="pt-[180px]">
+        <div className="pt-45">
           <Container>
             <div className="text-center">
               <p className="font-oswald font-bold text-base text-[#F75709] uppercase">

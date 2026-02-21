@@ -1,7 +1,7 @@
 import {Plus_Jakarta_Sans, Oswald } from "next/font/google";
 import "./globals.css";
-import Header from "./_components/Header";
-import Footer from "./_components/Footer";
+import Header from "./_components/common/Header";
+import Footer from "./_components/common/Footer";
 
 const plusjakartasans = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
