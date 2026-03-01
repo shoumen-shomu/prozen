@@ -31,13 +31,13 @@ const Team = () => {
                   <div className="flex justify-center items-center gap-2 absolute bottom-20 left-1/2 -translate-x-1/2 translate-y-[20%] opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-500  ">
                     <a href="https://github.com/shoumen-shomu" target="_blank">
                       <FaGithub
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
                     <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
                       <FaLinkedin
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
@@ -45,7 +45,7 @@ const Team = () => {
                   <h5 className="font-oswald font-semibold text-[25px] text-[#063231] leading-7.5">
                     Linda F. Collins
                   </h5>
-                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-[26px]">
+                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-6.5">
                     SR Marketer
                   </p>
                 </div>
@@ -60,13 +60,13 @@ const Team = () => {
                   <div className="flex justify-center items-center gap-2 absolute bottom-20 left-1/2 -translate-x-1/2 translate-y-[20%] opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-500  ">
                     <a href="https://github.com/shoumen-shomu" target="_blank">
                       <FaGithub
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
                     <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
                       <FaLinkedin
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
@@ -74,7 +74,7 @@ const Team = () => {
                   <h5 className="font-oswald font-semibold text-[25px] text-[#063231] leading-7.5">
                     Sandra D. Rainey
                   </h5>
-                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-[26px]">
+                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-6.5">
                     Executive officer
                   </p>
                 </div>
@@ -89,13 +89,13 @@ const Team = () => {
                   <div className="flex justify-center items-center gap-2 absolute bottom-20 left-1/2 -translate-x-1/2 translate-y-[20%] opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-500  ">
                     <a href="https://github.com/shoumen-shomu" target="_blank">
                       <FaGithub
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
                     <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
                       <FaLinkedin
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
@@ -103,7 +103,7 @@ const Team = () => {
                   <h5 className="font-oswald font-semibold text-[25px] text-[#063231] leading-7.5">
                     Brooklyn simmons
                   </h5>
-                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-[26px]">
+                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-6.5">
                     CEO & Founder
                   </p>
                 </div>
@@ -118,13 +118,13 @@ const Team = () => {
                   <div className="flex justify-center items-center gap-2 absolute bottom-20 left-1/2 -translate-x-1/2 translate-y-[20%] opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-500  ">
                     <a href="https://github.com/shoumen-shomu" target="_blank">
                       <FaGithub
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
                     <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
                       <FaLinkedin
-                        className="p-3.5 bg-white rounded-[14px]"
+                        className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
                       />
                     </a>
@@ -132,7 +132,7 @@ const Team = () => {
                   <h5 className="font-oswald font-semibold text-[25px] text-[#063231] leading-7.5">
                     Patrick Stewart
                   </h5>
-                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-[26px]">
+                  <p className="font-jakarta font-normal text-[18px] text-[#063231] leading-6.5">
                     Finance advisor
                   </p>
                 </div>
