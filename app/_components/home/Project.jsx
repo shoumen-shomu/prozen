@@ -66,7 +66,7 @@ const Project = () => {
                         height={618}
                         className="w-full object-cover"
                       />
-                      <div className="w-[90%] px-5 py-4.5 bg-white rounded-[20px] mx-auto absolute bottom-[5%] left-1/2 -translate-x-1/2 translate-y-[150%] opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-500 ">
+                      <div className="w-[90%] px-5 py-4.5 bg-white rounded-[20px] mx-auto absolute bottom-[5%] left-1/2 -translate-x-1/2 translate-y-[150%] opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-500">
                         <h3 className="font-oswald font-semibold text-[28px] text-[#063231] leading-8.5 tracking-[-0.56px]">
                           Digital Transformation Readiness
                         </h3>
