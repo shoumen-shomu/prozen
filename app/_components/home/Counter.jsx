@@ -16,7 +16,7 @@ const Counter = () => {
           <div className="py-7.5 rounded-[20px] bg-[#F5F7F7] flex justify-between mt-32.5">
             <div className="w-108 text-center ">
               <p ref={ref} className="font-oswald font-semibold text-[80px] text-[#063231] leading-21.25 tracking-[-1.6px] mb-[13px]">
-                 {inView ? <CountUp start={0} end={30.3} duration={4.5} decimals={1} suffix="" /> : "0"}
+                 {inView ? <CountUp start={0} end={8} duration={4.5} decimals={0} suffix="K" /> : "0"}
                 <span className="font-oswald font-semibold text-[80px] text-[#F75709] leading-21.25 tracking-[-1.6px]">
                   +
                 </span>
