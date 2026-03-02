@@ -55,6 +55,23 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              <div className="">
+                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Menu</h4>
+                <ul>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Article & Blog</Link>
+                  </li>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Documentation</Link>
+                  </li>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Learn Gulaly</Link>
+                  </li>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Tutorials</Link>
+                  </li>
+                </ul>
+              </div>
 
             </div>
             <p className="font-jakarta font-bold font-semibold text-white text-center py-5">All Rights Reserved By Shoumen</p>
