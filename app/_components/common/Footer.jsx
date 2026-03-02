@@ -22,7 +22,7 @@ const Footer = () => {
                   Your success is our shared triumph, and we're.
                 </p>
                 <div className="flex gap-2 ">
-                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer hover:bg-[#F75709] hover:text-white duration-500 ">
+                  <div className="bg-[#1F4746] w-11 h-11 rounded-xl flex justify-center items-center cursor-pointer hover:bg-[#F75709] hover:text-white duration-500 ">
                     <FaTwitter className="text-white text-base" />
                   </div>
                   <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer hover:bg-[#F75709] hover:text-white duration-500 ">
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-[250px] mt-[65px]">
+            <div className="flex gap-[250px] my-[65px]">
               <div className="">
                 <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Features</h4>
                 <ul>
@@ -103,9 +103,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-
             </div>
-            <p className="font-jakarta font-bold font-semibold text-white text-center py-5">All Rights Reserved By Shoumen</p>
+            <div className="w-full h-px bg-[#575a5a] "></div>
+            <p className="font-jakarta font-bold font-semibold text-white text-center py-5">©2025 All Rights Reserved By <span className="text-[#F75709]">Shoumen</span></p>
           </Container>
         </div>
       </section>
