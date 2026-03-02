@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
       <section id="footer">
         <div className="bg-[#063231] ">
           <Container>
-            <div className="pt-[120px] pb-[70px] border-b border-[#575a5a]">
+            <div className="pt-30 pb-17.5 border-b border-[#575a5a]">
               <Image src={"/footerlogo.png"} alt="" width={131} height={31} />
               <div className="flex justify-between items-end">
                 <p className="font-jakarta font-normal text-[18px] text-white leading-[30px] w-[497px] mt-[10px]">
@@ -35,6 +36,26 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="flex gap-[250px] mt-[65px]">
+              <div className="">
+                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Features</h4>
+                <ul>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Advanced Analytics</Link>
+                  </li>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Advanced Analytics</Link>
+                  </li>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Auto Track</Link>
+                  </li>
+                  <li className="font-jakarta font-normal text-[16px] text-white leading-8">
+                    <Link href={"/"}>Data Insights</Link>
+                  </li>
+                </ul>
+              </div>
+
             </div>
             <p className="font-jakarta font-bold font-semibold text-white text-center py-5">All Rights Reserved By Shoumen</p>
           </Container>
