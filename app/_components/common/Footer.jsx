@@ -21,16 +21,16 @@ const Footer = () => {
                   Your success is our shared triumph, and we're.
                 </p>
                 <div className="flex gap-2 ">
-                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer ">
+                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer hover:bg-[#F75709] hover:text-white duration-500 ">
                     <FaTwitter className="text-white text-base" />
                   </div>
-                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer ">
+                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer hover:bg-[#F75709] hover:text-white duration-500 ">
                     <FaInstagram className="text-white text-base"  />
                   </div>
-                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer ">
+                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer  hover:bg-[#F75709] hover:text-white duration-500">
                     <FaFacebookF className="text-white text-base"  />
                   </div>
-                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer ">
+                  <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer  hover:bg-[#F75709] hover:text-white duration-500">
                     <FaLinkedin className="text-white text-base"  />
                   </div>
                 </div>
