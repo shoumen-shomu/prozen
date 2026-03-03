@@ -41,7 +41,7 @@ const Testimonial = () => {
         <div className="hidden lg:block w-[1px] h-[300px] bg-gray-200"></div>
 
         {/* Right Side: Content */}
-        <div className="">
+        <div className="flex">
           <Swiper
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             modules={[Autoplay, Navigation]}
@@ -56,7 +56,7 @@ const Testimonial = () => {
               paddingBottom: "40px",
             }}
           >
-             <SwiperSlide>
+          <SwiperSlide>
             <div className="w-full lg:w-2/3">
               {/* Stars */}
               <div className="flex gap-1 mb-6">
@@ -96,6 +96,47 @@ const Testimonial = () => {
               </div>
             </div>
             </SwiperSlide>
+            <SwiperSlide>
+            <div className="w-full lg:w-2/3">
+              {/* Stars */}
+              <div className="flex gap-1 mb-6">
+                <FaStar className="text-[#F75709]" />
+                <FaStar className="text-[#F75709]" />
+                <FaStar className="text-[#F75709]" />
+                <FaStar className="text-[#F75709]" />
+                <FaStar className="text-[#F75709]" />
+              </div>
+
+              <p className="font-jakarta font-medium text-[18px] lg:text-[22px] text-[#063231] leading-[1.6] italic mb-10">
+                "Guidance transformed the way we business. Their innovative
+                solutions and forward-thinking approach revitalized our
+                organization. The results for themselves, and we couldn't be
+                happier with the outcome. Trusting Guidance was a wise
+                investment in our future."
+              </p>
+
+              {/* User Info */}
+              <div className="flex items-center gap-4">
+                <div className="relative w-14 h-14 rounded-full overflow-hidden">
+                  <Image
+                    src="/testi.png"
+                    alt="John Smith"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div>
+                  <h4 className="font-oswald font-bold text-[18px] text-[#063231] uppercase">
+                    John Smith
+                  </h4>
+                  <p className="font-jakarta text-[14px] text-gray-500">
+                    Head of Developer
+                  </p>
+                </div>
+              </div>
+            </div>
+            </SwiperSlide>
+
           </Swiper>
         </div>
       </div>
