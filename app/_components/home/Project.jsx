@@ -5,7 +5,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules"; // 2. Navigation মডিউল অ্যাড করা হয়েছে
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 
 const Project = () => {
