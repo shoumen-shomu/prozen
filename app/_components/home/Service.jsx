@@ -6,7 +6,9 @@ import { GiMoneyStack } from "react-icons/gi";
 
 const Service = () => {
   return (
-    <div>
+    <>
+    {/* Service Part Start */}
+   
       <section id="service">
         <div className="pt-45">
           <Container>
@@ -63,7 +65,8 @@ const Service = () => {
           </Container>
         </div>
       </section>
-    </div>
+       {/* Service Part End */}
+    </>
   );
 };
 
