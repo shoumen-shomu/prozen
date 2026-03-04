@@ -8,6 +8,7 @@ import Button from "../common/Button";
 const About = () => {
   return (
     <>
+      {/* About Part Start */}
       <section id="about">
         <div className="mt-32.5">
           <Container>
@@ -40,6 +41,7 @@ const About = () => {
           </Container>
         </div>
       </section>
+       {/* About Part End */}
     </>
   );
 };
