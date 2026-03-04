@@ -13,6 +13,8 @@ const Project = () => {
 
   return (
     <>
+    {/* Project Part Start */}
+
       <section id="project">
         <div className="mt-32.5">
           <Container>
@@ -153,6 +155,7 @@ const Project = () => {
           </Container>
         </div>
       </section>
+          {/* Project Part End */}
     </>
   );
 };
