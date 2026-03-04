@@ -46,9 +46,14 @@ const Header = () => {
           <Container>
             <div className="py-4.25 px-3.75 flex items-center gap-15 justify-between rounded-[20px] bg-white ">
               <div className="flex items-center justify-between gap-15">
+                {/* Logo Part Start */}
                 <div className="">
                   <Image src="/logo.png" alt="ProZen" width={131} height={33} />
                 </div>
+                {/* Logo Part End */}
+
+                {/* Menu Part Start */}
+
                 <div className="">
                   <ul className="flex gap-8">
                     <li className="font-oswald font-bold text-base text-[#063231] hover:text-[#F75709] duration-300">
@@ -68,7 +73,11 @@ const Header = () => {
                     </li>
                   </ul>
                 </div>
+                {/* Menu Part End */}
               </div>
+
+              {/* Button Part Start */}
+
               <div>
                 <Button
                   className={
@@ -77,6 +86,7 @@ const Header = () => {
                   btntext={"lets get in touch"}
                 />
               </div>
+              {/* Button Part End */}
             </div>
           </Container>
         </div>
