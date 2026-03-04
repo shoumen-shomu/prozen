@@ -7,6 +7,8 @@ import { FaLinkedin } from "react-icons/fa";
 const Team = () => {
   return (
     <>
+      {/* Team Part Start */}
+
       <section id="team">
         <div className="mt-[130px]">
           <Container>
@@ -35,7 +37,10 @@ const Team = () => {
                         size={50}
                       />
                     </a>
-                    <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/shoumenshomu/"
+                      target="_blank"
+                    >
                       <FaLinkedin
                         className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
@@ -64,7 +69,10 @@ const Team = () => {
                         size={50}
                       />
                     </a>
-                    <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/shoumenshomu/"
+                      target="_blank"
+                    >
                       <FaLinkedin
                         className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
@@ -93,7 +101,10 @@ const Team = () => {
                         size={50}
                       />
                     </a>
-                    <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/shoumenshomu/"
+                      target="_blank"
+                    >
                       <FaLinkedin
                         className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
@@ -122,7 +133,10 @@ const Team = () => {
                         size={50}
                       />
                     </a>
-                    <a href="https://www.linkedin.com/in/shoumenshomu/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/shoumenshomu/"
+                      target="_blank"
+                    >
                       <FaLinkedin
                         className="p-3.5 bg-white rounded-[14px] hover:bg-[#F75709] hover:text-white duration-500"
                         size={50}
@@ -141,6 +155,7 @@ const Team = () => {
           </Container>
         </div>
       </section>
+      {/* Team Part End */}
     </>
   );
 };
