@@ -9,6 +9,8 @@ import { motion } from "framer-motion";
 const Banner = () => {
   return (
     <>
+      {/* Banner Part Start */}
+
       <section id="bannerPart">
         <div className="bg-[url('/bannerBg.png')] bg-cover bg-center bg-no-repeat pt-35 pb-20">
           <Container>
@@ -54,7 +56,6 @@ const Banner = () => {
                     duration: 4,
                     repeat: Infinity,
                     ease: "easeInOut",
-                    
                   }}
                   className="py-5 px-7 bg-white/20 backdrop-blur-md rounded-[20px] inline-block absolute bottom-50 -right-15"
                 >
@@ -70,6 +71,7 @@ const Banner = () => {
           </Container>
         </div>
       </section>
+      {/* Banner Part End */}
     </>
   );
 };
