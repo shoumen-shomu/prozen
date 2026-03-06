@@ -7,10 +7,11 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
-
 const Footer = () => {
   return (
     <>
+      {/* Footer Part Start */}
+
       <section id="footer">
         <div className="bg-[#063231] ">
           <Container>
@@ -26,20 +27,22 @@ const Footer = () => {
                     <FaTwitter className="text-white text-base" />
                   </div>
                   <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer hover:bg-[#F75709] hover:text-white duration-500 ">
-                    <FaInstagram className="text-white text-base"  />
+                    <FaInstagram className="text-white text-base" />
                   </div>
                   <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer  hover:bg-[#F75709] hover:text-white duration-500">
-                    <FaFacebookF className="text-white text-base"  />
+                    <FaFacebookF className="text-white text-base" />
                   </div>
                   <div className="bg-[#1F4746] w-[44px] h-[44px] rounded-[12px] flex justify-center items-center cursor-pointer  hover:bg-[#F75709] hover:text-white duration-500">
-                    <FaLinkedin className="text-white text-base"  />
+                    <FaLinkedin className="text-white text-base" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex gap-[250px] my-[65px]">
               <div className="">
-                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Features</h4>
+                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">
+                  Features
+                </h4>
                 <ul>
                   <li className="font-jakarta font-normal text-[16px] text-white leading-8">
                     <Link href={"/"}>Advanced Analytics</Link>
@@ -56,7 +59,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="">
-                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Menu</h4>
+                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">
+                  Menu
+                </h4>
                 <ul>
                   <li className="font-jakarta font-normal text-[16px] text-white leading-8">
                     <Link href={"/"}>Article & Blog</Link>
@@ -73,7 +78,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="">
-                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Company</h4>
+                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">
+                  Company
+                </h4>
                 <ul>
                   <li className="font-jakarta font-normal text-[16px] text-white leading-8">
                     <Link href={"/"}>About Us</Link>
@@ -87,7 +94,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="">
-                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">Resources</h4>
+                <h4 className="font-jakarta font-bold text-[20px] text-white leading-8 pb-[30px]">
+                  Resources
+                </h4>
                 <ul>
                   <li className="font-jakarta font-normal text-[16px] text-white leading-8">
                     <Link href={"/"}>Blog and Article</Link>
@@ -105,10 +114,14 @@ const Footer = () => {
               </div>
             </div>
             <div className="w-full h-px bg-[#575a5a] "></div>
-            <p className="font-jakarta font-bold font-semibold text-white text-center py-5">©2025 All Rights Reserved By <span className="text-[#F75709]">Shoumen</span></p>
+            <p className="font-jakarta font-bold font-semibold text-white text-center py-5">
+              ©2025 All Rights Reserved By{" "}
+              <span className="text-[#F75709]">Shoumen</span>
+            </p>
           </Container>
         </div>
       </section>
+      {/* Footer Part End */}
     </>
   );
 };
